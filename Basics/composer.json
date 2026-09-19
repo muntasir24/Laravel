@@ -1,0 +1,13 @@
+{
+    "name": "laravel-php/basics",
+    "description": "PHP practice examples",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Admin\\\\": "Namespace/Admin/",
+            "Customer\\\\": "Namespace/Customer/"
+        }
+    }
+}
